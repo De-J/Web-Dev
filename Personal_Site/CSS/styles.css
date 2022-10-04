@@ -1,0 +1,38 @@
+/*TAG SELECTORS*/
+body {
+    background-color: #CDF0EA;
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h3 {
+    color: #66BFBF;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 5px 0 0;
+    height: 5px;
+    width: 10%;
+}
+
+/*CLASS SELECTORS*/
+
+.circular {
+    border-radius: 40%;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.random_class {
+    display: inline;
+    /*
+    display: block; you can change width but cannot have more than one element in one line
+    display: inline-block; you can have elements in the same line and also change their width
+    display: none;
+    */
+}

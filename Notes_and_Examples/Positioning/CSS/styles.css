@@ -1,0 +1,29 @@
+.container {
+    height: 100px;
+    width: 100px;
+}
+
+.red {
+    background-color: red;
+
+    position: relative;
+    left: 200px;
+}
+
+.blue {
+    background-color: blue;
+    
+    position: relative;
+    right: 100px;
+}
+
+.yellow {
+    background-color: yellow; /*background color is not considered as content*/
+    
+    position: relative;
+    right: 100px;  
+}
+
+.disp {
+    display: inline-block;
+}

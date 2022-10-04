@@ -1,0 +1,54 @@
+/*TAG SELECTORS*/
+
+body {
+    margin: 0;
+}
+
+div {
+    background-color: #AFB4FF;
+    /*
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    */
+}
+
+h1 {
+    margin-top: 0px;
+    
+    /*
+    margin-left: 0px;
+    margin-right: 0px;
+    */
+}
+
+/*CLASS SELECTORS*/
+
+.container {
+    height: 200px;
+    width: 200px;
+}
+
+.top {
+    border: 10px solid;
+    padding: 20px;
+}
+
+.middle {
+    background-image: url("../images/Akatsuki_background.jpg");
+    border: 20px solid;
+    margin-left: 260px;
+}
+
+.bottom {
+    background-color: blue;
+    border: 10px solid;
+    margin-left: 500px;
+    
+    /*
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    */
+}

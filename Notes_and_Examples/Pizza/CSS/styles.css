@@ -1,0 +1,28 @@
+/*TAG SELECTORS*/
+h1 {
+    color: #3120E0;
+    font-size: 50px;
+}
+
+/*CLASS SELECTORS*/
+
+
+.pizza {
+    background-color: red;
+}
+
+.broccoli {
+    background-color: green;
+}
+
+.circular {
+    border-radius: 20%;
+
+}
+
+
+/*ID SELECTORS*/
+
+#pizza-heading {
+    color: #F7A76C;
+}
