@@ -1,26 +1,42 @@
-img {
-    border: 1px solid;
-    border-radius: 30px;
-    display: block;
-    
-    margin: auto;
+/*TAG SELECTORS*/
+
+body {
+    /* margin: 0; */
 }
+
 
 
 /*CLASS SELECTORS*/
 
-.B {
-    background-color: blue;
+.back-img {
     
-    height: 200px;
-    width: 590px;
+    background-image: url("../images/img3.png");
+    
+    /*making borders of divs visible is helpful in debugging
+    border: 1px solid; border-color: red;
+    */
+    
+    border-radius: 30px;
+    
+    /*height and width of div needs to be more than the image dimensions when using the image as a div background, otherwise the image would not be fully visible*/ 
+    height: 362px; 
+    width: 976px;
 
-    position: absolute;
-    top: 110px;
-    left: 185px;
+    margin: auto;
+}
 
-    opacity: 0.33;
+.front-img {
 
     /*transform: skew(-50deg) rotate(15deg);*/
+    
+    /*changing height and width of the div in which the svg is situated has no effect on the visibility of the svg*/ 
+    width: 600px;
+    
+    position: relative;
+    left: 154px;
+    top: 54px;
+}
 
+.trigger {
+    margin: auto;
 }
