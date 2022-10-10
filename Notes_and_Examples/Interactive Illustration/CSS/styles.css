@@ -4,7 +4,9 @@ body {
     /* margin: 0; */
 }
 
-
+form {
+    text-align: center;
+}
 
 /*CLASS SELECTORS*/
 
@@ -35,8 +37,4 @@ body {
     position: relative;
     left: 154px;
     top: 54px;
-}
-
-.trigger {
-    margin: auto;
 }
