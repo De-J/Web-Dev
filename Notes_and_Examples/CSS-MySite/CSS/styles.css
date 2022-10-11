@@ -1,15 +1,52 @@
 /*TAG SELECTORS*/
 
 body {
+    /*
+    border: 1px solid;
+    border-color: red;
+    */
     margin: 0;
 }
 
-div {
+h1 {
+    /*
+    border: 1px solid;
+    border-color: black; 
+    */
 }
 
-h1 {
-    margin-top: 0px;    
+img {
+    /*
+    border: 1px solid;
+    */
+}
+
+
+/*ID SELECTORS*/
+
+#top-cloud {
+    position: relative;
+    left: 200px;
+    margin: 0;
+}
+
+#bottom-cloud {
+    display: block;
+    position: relative;
+    left: 400px;
+}
+
+#top-container {
+    background-color: #E4F9F5;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#mountain {
+    display: block;
+    /*this is done so that there is no gap between the image and bottom of the div*/
+    
+    margin: auto;
 }
 
 /*CLASS SELECTORS*/
-
