@@ -8,13 +8,6 @@ body {
     margin: 0;
 }
 
-h1 {
-    /*
-    border: 1px solid;
-    border-color: black; 
-    */
-}
-
 img {
     /*
     border: 1px solid;
@@ -38,6 +31,8 @@ img {
 
 #top-container {
     background-color: #E4F9F5;
+    font-family: sans-serif;
+
     padding-top: 50px;
     text-align: center;
 }
