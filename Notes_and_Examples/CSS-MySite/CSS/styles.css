@@ -29,6 +29,13 @@ img {
     left: 400px;
 }
 
+#mountain {
+    display: block;
+    /*this is done so that there is no gap between the image and bottom of the div*/
+    
+    margin: auto;
+}
+
 #top-container {
     background-color: #E4F9F5;
     font-family: sans-serif;
@@ -37,11 +44,9 @@ img {
     text-align: center;
 }
 
-#mountain {
-    display: block;
-    /*this is done so that there is no gap between the image and bottom of the div*/
-    
-    margin: auto;
+#middle-container {
+    font-family: sans-serif;
 }
+
 
 /*CLASS SELECTORS*/
