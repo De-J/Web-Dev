@@ -36,7 +36,7 @@ img {
     margin: auto;
 }
 
-#heading {
+#main-heading {
     font-family: Sacramento, serif;
 }
 
@@ -52,11 +52,21 @@ img {
     text-align: center;
 }
 
-#profile-photo {
+
+#bottom-container {
+    text-align: center;
+}
+
+
+/*CLASS SELECTORS*/
+
+.photo {
     height: 200px;
     width: 200px;
     margin-top: 20px;
 }
 
-
-/*CLASS SELECTORS*/
+.sub-heading {
+    font-family: Rubik, sans-serif;
+    margin-bottom: 0px;
+}
