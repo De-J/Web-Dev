@@ -36,16 +36,26 @@ img {
     margin: auto;
 }
 
+#heading {
+    font-family: Sacramento, serif;
+}
+
 #top-container {
     background-color: #E4F9F5;
-    font-family: sans-serif;
-
+    font-family: Rubik, sans-serif;
     padding-top: 50px;
     text-align: center;
 }
 
 #middle-container {
-    font-family: sans-serif;
+    font-family: Rubik, sans-serif;
+    text-align: center;
+}
+
+#profile-photo {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
 }
 
 
