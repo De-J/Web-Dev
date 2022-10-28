@@ -8,13 +8,10 @@ body {
     margin: 0;
 }
 
-img {
-    /*
+td {
+    text-align: center;
     border: 1px solid;
-    */
 }
-
-
 /*ID SELECTORS*/
 
 #top-cloud {
@@ -26,7 +23,8 @@ img {
 #bottom-cloud {
     display: block;
     position: relative;
-    left: 400px;
+    left: 350px;
+
 }
 
 #mountain {
@@ -37,7 +35,10 @@ img {
 }
 
 #main-heading {
+    color: #66BFBF;
     font-family: Sacramento, serif;
+    font-size: 5rem;
+    margin: 10px auto 0 auto;
 }
 
 #top-container {
@@ -52,9 +53,8 @@ img {
     text-align: center;
 }
 
-
 #bottom-container {
-    text-align: center;
+    font-family: Rubik, sans-serif;
 }
 
 
@@ -63,7 +63,7 @@ img {
 .photo {
     height: 200px;
     width: 200px;
-    margin-top: 20px;
+    margin: 20px auto 20px auto;
 }
 
 .sub-heading {
