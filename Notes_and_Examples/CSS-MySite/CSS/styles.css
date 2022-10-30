@@ -1,17 +1,14 @@
 /*TAG SELECTORS*/
 
+a {
+    text-decoration: none;
+    color: #11999E;
+}
+
 body {
-    /*
-    border: 1px solid;
-    border-color: red;
-    */
     margin: 0;
 }
 
-td {
-    text-align: center;
-    border: 1px solid;
-}
 /*ID SELECTORS*/
 
 #top-cloud {
@@ -49,6 +46,7 @@ td {
 }
 
 #middle-container {
+    padding: 20px;
     font-family: Rubik, sans-serif;
     text-align: center;
 }
@@ -57,16 +55,35 @@ td {
     font-family: Rubik, sans-serif;
 }
 
+#coding-img {
+    float: left;
+    width: 35%;
+    margin-right: 30px;
+}
+
+#microcontroller-img {
+    float: right;
+    width: 35%;
+    margin-left: 30px;
+}
+
 
 /*CLASS SELECTORS*/
 
 .photo {
     height: 200px;
     width: 200px;
-    margin: 20px auto 20px auto;
 }
 
 .sub-heading {
+    color: #11999E;
     font-family: Rubik, sans-serif;
     margin-bottom: 0px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
