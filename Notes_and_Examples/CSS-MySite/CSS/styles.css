@@ -6,7 +6,14 @@ a {
 }
 
 body {
+    color: #40514E;
     margin: 0;
+}
+
+hr {
+    width: 5%;
+    border-style: none none dotted;
+    border-width: 5px;
 }
 
 /*ID SELECTORS*/
@@ -52,6 +59,7 @@ body {
 }
 
 #bottom-container {
+    text-align: center;
     font-family: Rubik, sans-serif;
 }
 
@@ -68,8 +76,7 @@ body {
 }
 
 #contact-container {
-    color: #11999E;
-    margin: auto;
+    margin: 0 auto 30px auto;
     line-height: 2;
     text-align: center;
     width: 50%;
@@ -82,6 +89,12 @@ body {
     background-color: #65BFBF;
     padding: 20px;
     text-align: center;
+}
+
+#copyright {
+    color: #EAF6F6;
+    position: relative;
+    left: 15px;
 }
 
 /*CLASS SELECTORS*/
@@ -100,6 +113,7 @@ body {
 .sub-heading {
     color: #66BFBF;
     font-family: Rubik, sans-serif;
+    font-size: 2.5rem;
 }
 
 
@@ -113,4 +127,31 @@ body {
 .links {
     display: inline;
     margin-left: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
 }
