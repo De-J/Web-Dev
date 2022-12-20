@@ -1,0 +1,21 @@
+#title {
+    background-color: #ff4c68;
+}
+
+#press img { /* descendants of press id */
+    margin: 0 50px;
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
