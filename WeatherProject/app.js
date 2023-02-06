@@ -1,8 +1,11 @@
 const express = require("express");
-const https = require("https");
-const bodyParser = require("body-parser");
 const app = express();
+
+const https = require("https");
+
+const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended: true}));
+
 
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/index.html");
@@ -10,7 +13,7 @@ app.get("/", (req, res) => {
 
 app.post("/", (req, res) => {
     const endpoint = "https://api.openweathermap.org/data/2.5/weather?";
-    const apiKey = "appid=e2fa3deae77869dbe9594cc725d51515";
+    const apiKey = "appid==";
     const city = "&q=" + req.body.cityName;
     const unit = "&units=metric"; 
     const url = endpoint + apiKey + city + unit;
@@ -28,7 +31,6 @@ app.post("/", (req, res) => {
         });
     });
 });
-
 
 app.listen(3000, function() {
     console.log("Server started on port 3000");
