@@ -31,9 +31,6 @@ app.route("/notes")
         });
     })
     .post((req, res) => {
-        console.log(req.body.title);
-        console.log(req.body.content);
-
         const newNote = new Note({
             title: req.body.title,
             content: req.body.content
@@ -43,11 +40,42 @@ app.route("/notes")
         ));
         //newNote.save().then(() => res.send("New note has been added successfully"), (err) => res.send(err));
     })
-    .delete("/notes", (req, res) => {
-        Note.deleteMany((err) => res.send(
-            (!err) ? "All notes deleted successfully" : err
-        ));
+    .delete((req, res) => {
+        Note.deleteMany((err) => 
+        res.send((!err) ? "All notes deleted successfully" : err));
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.route("/notes/:noteTitle")
+    .get((req, res) => {
+        Note.findOne({title: req.params.noteTitle}, (err, foundNote) => {
+           res.send(foundNote);
+        });
     });
+
+
+
+
+
+
+
+
+
+
 
 app.listen(3000, () => {
     console.log("Server started on port 3000");
